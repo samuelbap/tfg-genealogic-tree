@@ -1,0 +1,50 @@
+{
+    "id": "",
+    "document_type": "",
+    "event_location": "",
+    "document_location": [
+        {
+            "country": "",
+            "state": "",
+            "city": "",
+            "municipality": "",
+            "parish": "",
+            "institution": "",
+            "id_book": "",
+            "imageNumber": "",
+            "imageUrl": null
+        }
+    ],
+    "issue_date": "",
+    "protagonists": [
+        {
+            "name": "",
+            "last_name": ["", ""]
+        }
+    ],
+    "root_person": [
+        {
+            "name": "",
+            "last_name": ["", ""],
+            "partner": [
+                {
+                    "name": "",
+                    "last_name": ["", ""],
+                    "common_children": [
+                        {
+                            "name": "",
+                            "last_name": ["", ""],
+                            "partner": [
+                                {
+                                    "name": "",
+                                    "last_name": ["", ""],
+                                    "common_children": [{}]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
