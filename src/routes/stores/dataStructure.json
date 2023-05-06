@@ -1,0 +1,45 @@
+{
+    "id": "",
+    "documentType": " ",
+    "eventLocation": "",
+    "documentLocation": [
+        {
+            "country": "",
+            "state": " ",
+            "city": "",
+            "municipality": "",
+            "parish": " ",
+            "institution": "",
+            "id_book": "",
+            "imageNumber":"",
+            "imageUrl": ""
+        } 
+    ],
+    "issueDate": "",
+    "protagonist": [
+        { "title": "", "name": "", "lastName": [""] },
+        { "title": "", "name": "", "lastName": [""] }
+    ],
+    "rootPerson": [
+        {
+            "title": "",
+            "name": "",
+            "lastName": "",
+            "partner": [
+                {
+                    "title": "",
+                    "name": "",
+                    "lastName": "",
+                    "commonChildren": [
+                        {
+                            "title": "",
+                            "name": " ",
+                            "lastName": [""]
+                     
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

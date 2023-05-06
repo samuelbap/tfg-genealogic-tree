@@ -17,7 +17,7 @@
 			}
 		],
 		"issueDate": "1668",
-		"protagonists": [
+		"protagonist": [
 			{ "title": null, "name": "TOMAS", "lastName": ["ACUÑA"] },
 			{ "title": null, "name": "LUISA", "lastName": ["HOYOS"] }
 		],
@@ -132,7 +132,7 @@
 			}
 		],
 		"issueDate": "1668",
-		"protagonists": [
+		"protagonist": [
 			{
 				"title": null,
 				"name": "PEDRO",
@@ -238,7 +238,7 @@
 			}
 		],
 		"issueDate": "1675",
-		"protagonists": [
+		"protagonist": [
 			{
 				"title": null,
 				"name": "PEDRO",
@@ -351,7 +351,7 @@
 			}
 		],
 		"issueDate": "1674",
-		"protagonists": [
+		"protagonist": [
 			{
 				"title": null,
 				"name": "JOSE",
@@ -395,7 +395,7 @@
 			}
 		],
 		"issueDate": "1664",
-		"protagonists": [
+		"protagonist": [
 			{
 				"title": null,
 				"name": "JUAN",
@@ -506,7 +506,7 @@
 			}
 		],
 		"issueDate": "1702",
-		"protagonists": [
+		"protagonist": [
 			{
 				"name": "RODRIGO",
 				"lastName": ["ANGULO"]
@@ -605,7 +605,7 @@
 			}
 		],
 		"issueDate": "1734",
-		"protagonists": [
+		"protagonist": [
 			{
 				"name": "CARLOS SANTOS",
 				"lastName": ["MACIAS"]
@@ -685,7 +685,7 @@
 			}
 		],
 		"issueDate": "1735",
-		"protagonists": [
+		"protagonist": [
 			{
 				"name": "JOSE ANTONIO",
 				"lastName": ["RODRIGUEZ", "CARDENAS"]
@@ -773,7 +773,7 @@
 			}
 		],
 		"issueDate": "1664",
-		"protagonists": [
+		"protagonist": [
 			{
 				"name": "IGNACIO",
 				"lastName": ["GARCIA", "DE", "RIVAS"]
@@ -861,7 +861,7 @@
 			}
 		],
 		"issueDate": "1671",
-		"protagonists": [
+		"protagonist": [
 			{
 				"name": "JOSE",
 				"lastName": ["CASTELLANO"]
