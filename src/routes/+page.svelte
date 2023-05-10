@@ -1,15 +1,17 @@
 <script>
   // @ts-nocheck
 
-  import Footer from "./components/Common/Footer.svelte";
-  import {Container} from "postcss";
-  import PruebaFooter from "./components/PruebaFooter.svelte";
-  import Header from "./components/Common/Header.svelte";
+  import ContactUs from "../lib/Common/ContactUs.svelte";
+  import Card from "../lib/Common/Card.svelte";
+  import List from "../lib/Common/List.svelte";
 </script>
 
-<main class=" min-h-screen bg-red-400">
+<main class=" min-h-screen">
   <h1>Welcome to SvelteKit</h1>
   <p>
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
   </p>
+  <List />
+  <ContactUs />
+  <Card class="box-border border-black" />
 </main>

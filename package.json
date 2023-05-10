@@ -35,6 +35,9 @@
 		"@vtmn/css-dropdown": "^1.1.1",
 		"classnames": "^2.3.2",
 		"flowbite": "^1.6.5",
-		"flowbite-svelte": "^0.34.9"
+		"flowbite-svelte": "^0.34.9",
+		"pg": "^8.10.0",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.31.1"
 	}
 }
