@@ -1,8 +1,4 @@
 <script>
-  // @ts-nocheck
-
-  import ContactUs from "../lib/Common/ContactUs.svelte";
-  import Card from "../lib/Common/Card.svelte";
   import List from "../lib/Common/List.svelte";
 </script>
 
@@ -12,6 +8,4 @@
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
   </p>
   <List />
-  <ContactUs />
-  <Card class="box-border border-black" />
 </main>

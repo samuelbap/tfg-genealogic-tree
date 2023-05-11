@@ -6,15 +6,16 @@
       class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
     >
       <img src="logo.png" alt="Logo" class="h-4 mr-4" />
-
-      <span class="ml-3 text-xl">GenealogicTree</span>
+      <a href="/">
+        <span class="ml-3 text-xl">GenealogicTree</span>
+      </a>
     </a>
     <nav
       class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center"
     >
-      <a class="mr-5 hover:text-gray-900">Registros</a>
-      <a class="mr-5 hover:text-gray-900">Contactanos</a>
-      <a class="mr-5 hover:text-gray-900">Sign in</a>
+      <a href="/records" class="mr-5 hover:text-gray-900">Registros</a>
+      <a href="/contacto" class="mr-5 hover:text-gray-900">Contactanos</a>
+      <a href="/singIng" class="mr-5 hover:text-gray-900">Sign in</a>
     </nav>
     <button
       class="inline-flex items-center border-0 py-1 px-3 focus:outline-none bg-blue-700 hover:bg-blue-300 hover:text-gray-700 rounded text-base text-white mt-4 md:mt-0"
