@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: my-project-backend
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3001:3001
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    # command: npm install express cors body-parser
+
+
+  frontend:
+    build: ./frontend
+    container_name: my-project-frontend
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 5000:5000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+  db:
+    image: postgres:13
+    container_name: my-project-db
+    environment:
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=mydb
+    ports:
+      - 5432:5432
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
+
