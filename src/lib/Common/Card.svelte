@@ -1,4 +1,15 @@
 <script>
+  import {
+    documentId,
+    documentType,
+    protagonist,
+    rootPerson,
+  } from "../../server/serverMock.js";
+
+  const id = documentId;
+  const documentT = documentType;
+  const Protagonistas = protagonist;
+  const root = rootPerson;
 </script>
 
 <section>

@@ -1,5 +1,5 @@
 import {DataTypes} from "sequelize";
-import {sequelize} from "../database/dbGenealogicTree";
+import {sequelize} from "../../lib/database/dbGenealogicTree";
 import {DocumentLocation} from "./documentLocation";
 
 export const Document = sequelize.define(
