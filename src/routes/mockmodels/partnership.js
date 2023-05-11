@@ -1,5 +1,5 @@
 import {DataTypes} from "sequelize";
-import {sequelize} from "../database/dbGenealogicTree";
+import {sequelize} from "../../lib/database/dbGenealogicTree";
 
 export const Protagonist = sequelize.define(
   "protagonist",

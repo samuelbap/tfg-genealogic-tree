@@ -4,7 +4,7 @@
     documentType,
     protagonist,
     rootPerson,
-  } from "../../utils/serverMock.js";
+  } from "../../server/serverMock.js";
 
   const id = documentId;
   const documentT = documentType;
@@ -36,15 +36,22 @@
 
   <tbody class="divide-y divide-gray-200">
     <tr>
-      <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+      <td
+        class="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900"
+      >
         {protagonist[0].name} & {protagonist[1].name}
       </td>
-      <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-700"
+      <td
+        class="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-700"
         >{documentType}</td
       >
-      <td class="whitespace-nowrap px-4 py-2 text-gray-700">{documentId}</td>
-      <td class="whitespace-nowrap px-4 py-2 text-gray-700">idBokk</td>
-      <td class="whitespace-nowrap px-4 py-2 text-gray-700"
+      <td class="whitespace-nowrap px-4 py-2 text-center text-gray-700"
+        >{documentId}</td
+      >
+      <td class="whitespace-nowrap px-4 py-2 text-center text-gray-700"
+        >idBokk</td
+      >
+      <td class="whitespace-nowrap px-4 py-2 text-center text-gray-700"
         >{rootPerson[0]} {rootPerson[1]}</td
       >
       <td class="whitespace-nowrap px-4 py-2">
