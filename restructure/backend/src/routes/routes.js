@@ -4,6 +4,7 @@ const express = require('express');
 const router = express.Router();
 const documentController = require('../controllers/documentController');
 const documentLocationController = require('../controllers/documentLocationController');
+const personController = require('../controllers/personController');
 
 // Document routes
 router.get('/documents', documentController.getAllDocuments);
@@ -25,5 +26,15 @@ router.post('/persons', personController.createPerson);
 router.get('/persons/:id', personController.getPersonById);
 router.put('/persons/:id', personController.updatePerson);
 router.delete('/persons/:id', personController.deletePerson);
+
+// DocumentProtagonist routes
+// Add your documentProtagonist routes here
+
+// DocumentPartnership routes
+// Add your documentPartnership routes here
+
+// DocumentChildren routes
+// Add your documentChildren routes here
+
 
 module.exports = router;
