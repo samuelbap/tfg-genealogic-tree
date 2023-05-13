@@ -1,11 +1,11 @@
 // backend/src/models/document.js
 
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
-const DocumentLocation = require('./documentLocation');
-const Person = require('./person');
+const {Sequelize, DataTypes} = require("sequelize");
+const sequelize = require("../config/database");
+const DocumentLocation = require("./documentLocation");
+const Person = require("./person");
 
-const Document = sequelize.define('document', {
+const Document = sequelize.define("document", {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -34,13 +34,13 @@ const Document = sequelize.define('document', {
 });
 
 Document.belongsTo(DocumentLocation, {
-  foreignKey: 'locationId',
-  as: 'location',
+  foreignKey: "locationId",
+  as: "location",
 });
 
 Document.belongsTo(Person, {
-  foreignKey: 'rootPersonId',
-  as: 'rootPerson',
+  foreignKey: "rootPersonId",
+  as: "rootPerson",
 });
 
 module.exports = Document;
